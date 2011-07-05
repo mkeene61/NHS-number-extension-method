@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4F099C02-73CC-46BF-9346-F40494C06A2A}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		XSWHC.NHSNoExtensions.vsmdi = XSWHC.NHSNoExtensions.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSWHC.NHSNoExtensions", "XSWHC.NHSNoExtensions\XSWHC.NHSNoExtensions.csproj", "{AE56F150-3D93-4B75-A76D-019EA5FF2D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHSNoExtensionsTests", "NHSNoExtensionsTests\NHSNoExtensionsTests.csproj", "{356F2489-8D8E-4B14-88B3-CE8F36BB59C3}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = XSWHC.NHSNoExtensions.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE56F150-3D93-4B75-A76D-019EA5FF2D5E}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{AE56F150-3D93-4B75-A76D-019EA5FF2D5E}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{AE56F150-3D93-4B75-A76D-019EA5FF2D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE56F150-3D93-4B75-A76D-019EA5FF2D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{356F2489-8D8E-4B14-88B3-CE8F36BB59C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{356F2489-8D8E-4B14-88B3-CE8F36BB59C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{356F2489-8D8E-4B14-88B3-CE8F36BB59C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{356F2489-8D8E-4B14-88B3-CE8F36BB59C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

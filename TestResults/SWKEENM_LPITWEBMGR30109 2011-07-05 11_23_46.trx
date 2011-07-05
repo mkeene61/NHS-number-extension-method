@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8649742b-b9a1-45bf-b409-c11ecb140845" name="SWKEENM@LPITWEBMGR30109 2011-07-05 11:23:46" runUser="XSWHC\SWKEENM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local Test Run" id="8101d2f5-126f-4b17-bc1f-e194499356ef">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="SWKEENM_LPITWEBMGR30109 2011-07-05 11_23_46">
+      <DeploymentItem filename="C:\Users\swkeenm\Documents\GIT\XSWHC.NHSNoExtensions\bin\Release\XSWHC.NHSNoExtensions.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-05T11:23:46.7146747+01:00" queuing="2011-07-05T11:23:49.8889921+01:00" start="2011-07-05T11:23:50.1000132+01:00" finish="2011-07-05T11:23:50.8390871+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="16" executed="16" passed="16" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Is12CharsLong" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="19ce352c-c838-da3f-514b-cb36e5e1dd49">
+      <Execution id="a915fb1b-fb2e-4903-bf53-7b7a473fb078" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Is12CharsLong" />
+    </UnitTest>
+    <UnitTest name="hasTwoSpaces" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="7227412b-84f5-c20f-045b-b82795d4fee0">
+      <Execution id="15cb1655-7f96-425e-a614-518239cd4e77" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="hasTwoSpaces" />
+    </UnitTest>
+    <UnitTest name="CheckIfCharsAreNumbers" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="3d8eb543-054a-9369-cf1d-1452686ebce9">
+      <Execution id="ef6b46af-d319-4222-8ecd-bc34578a90b5" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckIfCharsAreNumbers" />
+    </UnitTest>
+    <UnitTest name="ThrowNullExceptionIfNullIsPassed" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="37f21fc5-5d28-5d5c-ea82-0107fa4e4ab1">
+      <Execution id="34688f04-f146-4031-b62b-9757a289cfc9" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThrowNullExceptionIfNullIsPassed" />
+    </UnitTest>
+    <UnitTest name="ReturnsFormattedNHSNo" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="4993a468-a58b-e5f6-6b71-6af8518dc71e">
+      <Execution id="677476dc-b74b-4c48-a82d-30a629895d23" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReturnsFormattedNHSNo" />
+    </UnitTest>
+    <UnitTest name="FailFormatAsNHSIfNHSNoIsNull" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="1d1850a9-0f14-b3de-57e5-f2539ac9be27">
+      <Execution id="156f44e0-f09a-4486-a442-6851e2946232" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FailFormatAsNHSIfNHSNoIsNull" />
+    </UnitTest>
+    <UnitTest name="CheckNHSNoIsValid" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="ec068b9a-023f-9792-b4d0-6f0dc5c83580">
+      <Execution id="b13f8289-01bb-4a9b-b85f-e6173ea5f644" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckNHSNoIsValid" />
+    </UnitTest>
+    <UnitTest name="ThrowErrorIfNotAllNumbers" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="1dc3751e-69cb-049d-7274-01b9fdf852aa">
+      <Execution id="47b2c179-f4ba-4df6-96ec-15f11f81b2e2" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThrowErrorIfNotAllNumbers" />
+    </UnitTest>
+    <UnitTest name="IsNHSFormattedNull" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="4f793415-23b8-977a-3f36-b16f0d8e80a1">
+      <Execution id="5f73411c-2180-4fbe-8d86-5ccc8868a751" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsNHSFormattedNull" />
+    </UnitTest>
+    <UnitTest name="CheckSampleRangeOfNHSNos" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="4cdfd577-2691-0bf0-4833-c482b11211eb">
+      <Execution id="cfc18877-cbc2-41ec-97f1-1a9efe4ed6a0" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckSampleRangeOfNHSNos" />
+    </UnitTest>
+    <UnitTest name="StripNHSFormattingFailsOnNullString" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="0e079bce-0c75-3d72-724d-b62114e09770">
+      <Execution id="d73aaf7c-51db-474d-a154-eb681efc33e8" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StripNHSFormattingFailsOnNullString" />
+    </UnitTest>
+    <UnitTest name="ReutrnsSameStringIfNoCharsIsNotTen" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="75d31d51-f4a6-439b-2e14-b48d9ba6a783">
+      <Execution id="7760851d-f2ba-4287-81e2-5e8d3937fc0d" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReutrnsSameStringIfNoCharsIsNotTen" />
+    </UnitTest>
+    <UnitTest name="StripNHSFormatting" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="0d50817e-e22e-56f0-c753-bcf581fc8e9e">
+      <Execution id="ff1fa9c8-0bf8-4e20-9393-af3d6947fde5" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StripNHSFormatting" />
+    </UnitTest>
+    <UnitTest name="ShouldNotBeValidIfAllNosAreSame" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="c5783a1a-76fb-769e-a2a7-271765edf8cc">
+      <Execution id="e86b009c-5913-4f4c-ad21-e2f6125f0992" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShouldNotBeValidIfAllNosAreSame" />
+    </UnitTest>
+    <UnitTest name="spacesAreAtPosition4and8" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="35d155f6-e7c6-565a-938f-6d52ed76287d">
+      <Execution id="bf6e01e9-dd32-4535-9457-844c6aab87e8" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="spacesAreAtPosition4and8" />
+    </UnitTest>
+    <UnitTest name="IsNotValidIfNotTenChars" storage="c:\users\swkeenm\documents\git\nhsnoextensionstests\bin\debug\nhsnoextensionstests.dll" id="f7d86b97-c9fa-0052-f26e-7fc632190ea5">
+      <Execution id="444f500c-5c78-4721-84e5-7bc50064ae84" />
+      <TestMethod codeBase="C:/Users/swkeenm/Documents/GIT/NHSNoExtensionsTests/bin/Debug/NHSNoExtensionsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NHSNoExtensionsTests.NHSExtensionTests, NHSNoExtensionsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsNotValidIfNotTenChars" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0d50817e-e22e-56f0-c753-bcf581fc8e9e" executionId="ff1fa9c8-0bf8-4e20-9393-af3d6947fde5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e079bce-0c75-3d72-724d-b62114e09770" executionId="d73aaf7c-51db-474d-a154-eb681efc33e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19ce352c-c838-da3f-514b-cb36e5e1dd49" executionId="a915fb1b-fb2e-4903-bf53-7b7a473fb078" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d1850a9-0f14-b3de-57e5-f2539ac9be27" executionId="156f44e0-f09a-4486-a442-6851e2946232" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1dc3751e-69cb-049d-7274-01b9fdf852aa" executionId="47b2c179-f4ba-4df6-96ec-15f11f81b2e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35d155f6-e7c6-565a-938f-6d52ed76287d" executionId="bf6e01e9-dd32-4535-9457-844c6aab87e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37f21fc5-5d28-5d5c-ea82-0107fa4e4ab1" executionId="34688f04-f146-4031-b62b-9757a289cfc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d8eb543-054a-9369-cf1d-1452686ebce9" executionId="ef6b46af-d319-4222-8ecd-bc34578a90b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4993a468-a58b-e5f6-6b71-6af8518dc71e" executionId="677476dc-b74b-4c48-a82d-30a629895d23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4cdfd577-2691-0bf0-4833-c482b11211eb" executionId="cfc18877-cbc2-41ec-97f1-1a9efe4ed6a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f793415-23b8-977a-3f36-b16f0d8e80a1" executionId="5f73411c-2180-4fbe-8d86-5ccc8868a751" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7227412b-84f5-c20f-045b-b82795d4fee0" executionId="15cb1655-7f96-425e-a614-518239cd4e77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75d31d51-f4a6-439b-2e14-b48d9ba6a783" executionId="7760851d-f2ba-4287-81e2-5e8d3937fc0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5783a1a-76fb-769e-a2a7-271765edf8cc" executionId="e86b009c-5913-4f4c-ad21-e2f6125f0992" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec068b9a-023f-9792-b4d0-6f0dc5c83580" executionId="b13f8289-01bb-4a9b-b85f-e6173ea5f644" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7d86b97-c9fa-0052-f26e-7fc632190ea5" executionId="444f500c-5c78-4721-84e5-7bc50064ae84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ff1fa9c8-0bf8-4e20-9393-af3d6947fde5" testId="0d50817e-e22e-56f0-c753-bcf581fc8e9e" testName="StripNHSFormatting" computerName="LPITWEBMGR30109" duration="00:00:00.0361085" startTime="2011-07-05T11:23:50.2290261+01:00" endTime="2011-07-05T11:23:50.6310663+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff1fa9c8-0bf8-4e20-9393-af3d6947fde5">
+    </UnitTestResult>
+    <UnitTestResult executionId="d73aaf7c-51db-474d-a154-eb681efc33e8" testId="0e079bce-0c75-3d72-724d-b62114e09770" testName="StripNHSFormattingFailsOnNullString" computerName="LPITWEBMGR30109" duration="00:00:00.0135543" startTime="2011-07-05T11:23:50.6330665+01:00" endTime="2011-07-05T11:23:50.6820714+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d73aaf7c-51db-474d-a154-eb681efc33e8">
+    </UnitTestResult>
+    <UnitTestResult executionId="a915fb1b-fb2e-4903-bf53-7b7a473fb078" testId="19ce352c-c838-da3f-514b-cb36e5e1dd49" testName="Is12CharsLong" computerName="LPITWEBMGR30109" duration="00:00:00.0012191" startTime="2011-07-05T11:23:50.6850717+01:00" endTime="2011-07-05T11:23:50.6890721+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a915fb1b-fb2e-4903-bf53-7b7a473fb078">
+    </UnitTestResult>
+    <UnitTestResult executionId="156f44e0-f09a-4486-a442-6851e2946232" testId="1d1850a9-0f14-b3de-57e5-f2539ac9be27" testName="FailFormatAsNHSIfNHSNoIsNull" computerName="LPITWEBMGR30109" duration="00:00:00.0007898" startTime="2011-07-05T11:23:50.6920724+01:00" endTime="2011-07-05T11:23:50.6960728+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="156f44e0-f09a-4486-a442-6851e2946232">
+    </UnitTestResult>
+    <UnitTestResult executionId="47b2c179-f4ba-4df6-96ec-15f11f81b2e2" testId="1dc3751e-69cb-049d-7274-01b9fdf852aa" testName="ThrowErrorIfNotAllNumbers" computerName="LPITWEBMGR30109" duration="00:00:00.0009243" startTime="2011-07-05T11:23:50.6990731+01:00" endTime="2011-07-05T11:23:50.7030735+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47b2c179-f4ba-4df6-96ec-15f11f81b2e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="bf6e01e9-dd32-4535-9457-844c6aab87e8" testId="35d155f6-e7c6-565a-938f-6d52ed76287d" testName="spacesAreAtPosition4and8" computerName="LPITWEBMGR30109" duration="00:00:00.0002309" startTime="2011-07-05T11:23:50.7060738+01:00" endTime="2011-07-05T11:23:50.7090741+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf6e01e9-dd32-4535-9457-844c6aab87e8">
+    </UnitTestResult>
+    <UnitTestResult executionId="34688f04-f146-4031-b62b-9757a289cfc9" testId="37f21fc5-5d28-5d5c-ea82-0107fa4e4ab1" testName="ThrowNullExceptionIfNullIsPassed" computerName="LPITWEBMGR30109" duration="00:00:00.0007898" startTime="2011-07-05T11:23:50.7230755+01:00" endTime="2011-07-05T11:23:50.7290761+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34688f04-f146-4031-b62b-9757a289cfc9">
+    </UnitTestResult>
+    <UnitTestResult executionId="ef6b46af-d319-4222-8ecd-bc34578a90b5" testId="3d8eb543-054a-9369-cf1d-1452686ebce9" testName="CheckIfCharsAreNumbers" computerName="LPITWEBMGR30109" duration="00:00:00.0005158" startTime="2011-07-05T11:23:50.7310763+01:00" endTime="2011-07-05T11:23:50.7360768+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef6b46af-d319-4222-8ecd-bc34578a90b5">
+    </UnitTestResult>
+    <UnitTestResult executionId="677476dc-b74b-4c48-a82d-30a629895d23" testId="4993a468-a58b-e5f6-6b71-6af8518dc71e" testName="ReturnsFormattedNHSNo" computerName="LPITWEBMGR30109" duration="00:00:00.0002187" startTime="2011-07-05T11:23:50.7380770+01:00" endTime="2011-07-05T11:23:50.7420774+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="677476dc-b74b-4c48-a82d-30a629895d23">
+    </UnitTestResult>
+    <UnitTestResult executionId="cfc18877-cbc2-41ec-97f1-1a9efe4ed6a0" testId="4cdfd577-2691-0bf0-4833-c482b11211eb" testName="CheckSampleRangeOfNHSNos" computerName="LPITWEBMGR30109" duration="00:00:00.0120653" startTime="2011-07-05T11:23:50.7450777+01:00" endTime="2011-07-05T11:23:50.7610793+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cfc18877-cbc2-41ec-97f1-1a9efe4ed6a0">
+    </UnitTestResult>
+    <UnitTestResult executionId="5f73411c-2180-4fbe-8d86-5ccc8868a751" testId="4f793415-23b8-977a-3f36-b16f0d8e80a1" testName="IsNHSFormattedNull" computerName="LPITWEBMGR30109" duration="00:00:00.0005036" startTime="2011-07-05T11:23:50.7630795+01:00" endTime="2011-07-05T11:23:50.7670799+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f73411c-2180-4fbe-8d86-5ccc8868a751">
+    </UnitTestResult>
+    <UnitTestResult executionId="15cb1655-7f96-425e-a614-518239cd4e77" testId="7227412b-84f5-c20f-045b-b82795d4fee0" testName="hasTwoSpaces" computerName="LPITWEBMGR30109" duration="00:00:00.0002649" startTime="2011-07-05T11:23:50.7700802+01:00" endTime="2011-07-05T11:23:50.7780810+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15cb1655-7f96-425e-a614-518239cd4e77">
+    </UnitTestResult>
+    <UnitTestResult executionId="7760851d-f2ba-4287-81e2-5e8d3937fc0d" testId="75d31d51-f4a6-439b-2e14-b48d9ba6a783" testName="ReutrnsSameStringIfNoCharsIsNotTen" computerName="LPITWEBMGR30109" duration="00:00:00.0002182" startTime="2011-07-05T11:23:50.7810813+01:00" endTime="2011-07-05T11:23:50.7840816+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7760851d-f2ba-4287-81e2-5e8d3937fc0d">
+    </UnitTestResult>
+    <UnitTestResult executionId="e86b009c-5913-4f4c-ad21-e2f6125f0992" testId="c5783a1a-76fb-769e-a2a7-271765edf8cc" testName="ShouldNotBeValidIfAllNosAreSame" computerName="LPITWEBMGR30109" duration="00:00:00.0002658" startTime="2011-07-05T11:23:50.7870819+01:00" endTime="2011-07-05T11:23:50.7910823+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e86b009c-5913-4f4c-ad21-e2f6125f0992">
+    </UnitTestResult>
+    <UnitTestResult executionId="b13f8289-01bb-4a9b-b85f-e6173ea5f644" testId="ec068b9a-023f-9792-b4d0-6f0dc5c83580" testName="CheckNHSNoIsValid" computerName="LPITWEBMGR30109" duration="00:00:00.0002744" startTime="2011-07-05T11:23:50.7940826+01:00" endTime="2011-07-05T11:23:50.7980830+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b13f8289-01bb-4a9b-b85f-e6173ea5f644">
+    </UnitTestResult>
+    <UnitTestResult executionId="444f500c-5c78-4721-84e5-7bc50064ae84" testId="f7d86b97-c9fa-0052-f26e-7fc632190ea5" testName="IsNotValidIfNotTenChars" computerName="LPITWEBMGR30109" duration="00:00:00.0007477" startTime="2011-07-05T11:23:50.8000832+01:00" endTime="2011-07-05T11:23:50.8050837+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="444f500c-5c78-4721-84e5-7bc50064ae84">
+    </UnitTestResult>
+  </Results>
+</TestRun>
